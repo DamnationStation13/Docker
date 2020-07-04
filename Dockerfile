@@ -6,7 +6,7 @@ ENV BYOND_MAJOR=512 \
     BYOND_MINOR=1463
 # Get the Required Packages and DL & install Byond
 RUN apt-get update \
-    && apt-get install \
+    && apt-get install -y \
     curl \
     unzip \
     make \
