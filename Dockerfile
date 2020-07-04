@@ -11,7 +11,7 @@ RUN apt-get update \
     unzip \
     make \
     libstdc++6 \
-    apt install libmariadb-client-lgpl-dev-compat \
+    libmariadb-client-lgpl-dev-compat \
     git \
     libssl-dev \
     && curl "http://www.byond.com/download/build/${BYOND_MAJOR}/${BYOND_MAJOR}.${BYOND_MINOR}_byond_linux.zip" -o byond.zip \
