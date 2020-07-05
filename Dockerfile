@@ -2,8 +2,8 @@ FROM i386/ubuntu:xenial
 
 MAINTAINER Andy Sheppard <zoltarisconundrum@gmail.com>
 
-ARG BYOND_MAJOR
-ARG BYOND_MINOR
+ENV BYOND_MAJOR=513 \
+    BYOND_MINOR=1526
 # Get the Required Packages and DL & install Byond
 RUN apt-get update \
     && apt-get install -y \
